@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans JP", sans-serif;
+  --font-serif: "Noto Serif JP", serif;
+  --color-brand-blue: #1a6fa8;
+  --color-brand-orange: #e05a2b;
+  --color-brand-gold: #c8922a;
+  --color-brand-bg: #f9f7f4;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: #333333;
+  font-family: var(--font-sans);
+}
