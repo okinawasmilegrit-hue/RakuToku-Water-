@@ -21,13 +21,13 @@ export default function App() {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-[#08203c]/70 via-[#0d4f7a]/55 to-[#1a6fa8]/35 flex flex-col items-center justify-center text-center px-6 py-10">
-          <div className="inline-block bg-white/20 border border-white/40 text-white/90 text-xs tracking-widest px-4 py-1.5 rounded-full mb-5">
+          <div className="inline-block bg-white/20 border border-white/40 text-white/90 text-xs tracking-widest px-4 py-1.5 rounded-full mb-5 backdrop-blur-sm">
             💧 ラクトクウォーター
           </div>
-          <h1 className="font-serif text-2xl md:text-4xl font-bold text-white leading-snug mb-4">
+          <h1 className="font-serif text-2xl md:text-4xl font-bold text-white leading-snug mb-4 drop-shadow-md">
             ペットボトルの買い出しは<br />お休みしませんか？
           </h1>
-          <p className="text-sm md:text-base text-white/80 max-w-xl leading-relaxed mb-8">
+          <p className="text-sm md:text-base text-white/90 max-w-xl leading-relaxed mb-8 drop-shadow">
             「毎日の小さな負担」をなくす定額制浄水サーバー
           </p>
           <a 
@@ -144,18 +144,18 @@ export default function App() {
           <p className="text-[#2a2a2a] leading-loose mb-4">「水道管につなぐってことは、味は水道水と同じなんじゃないの？」と思われるかもしれません。</p>
           <p className="text-[#2a2a2a] leading-loose mb-4">ご安心ください！ラクトクウォーターは、<strong>【沖縄の硬い水質に合わせて専用設計された5段階フィルター】</strong>を搭載しています。</p>
 
+          <img 
+            src="https://rakutokuwater.smilegrit.com/wp-content/uploads/2026/02/琉宮祭LP素材-2.png" 
+            alt="5段階フィルター" 
+            className="w-full rounded-xl my-6 object-cover shadow-sm border border-[#e2ddd8]"
+          />
+
           <div className="bg-[#e8f4fb] border-l-4 border-[#1a6fa8] rounded-r-xl p-5 md:p-6 my-7 text-[0.95rem] leading-loose text-[#0d4f7a]">
             サビや気になる塩素（カルキ臭）、さらにはニュースで話題の有機フッ素化合物（PFAS）までしっかりキャッチ。そして、お料理やお茶が美味しくなる「軟水」へと生まれ変わらせます。
           </div>
           <p className="text-center text-xs text-[#888] italic mb-7">県外とは水質が違う沖縄の水。その違いを前提に設計した5段階フィルターで、まろやかな軟水へ</p>
 
           <p className="text-[#2a2a2a] leading-loose mb-4">「今まで買っていたペットボトルのお水より美味しい！」と、乗り換えたお客様からも嬉しいお声をいただいています。</p>
-          
-          <img 
-            src="https://rakutokuwater.smilegrit.com/wp-content/uploads/2026/04/ラクトク-バナーのコピー.png" 
-            alt="沖縄仕様の5段階フィルター" 
-            className="w-full rounded-xl my-8 object-cover shadow-sm border border-[#e2ddd8]"
-          />
         </section>
 
         {/* Section 4: Campaign */}
@@ -221,7 +221,14 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#1a1a1a] text-white/40 text-center py-7 px-5 text-xs tracking-wide mt-auto">
+      <footer className="bg-[#1a1a1a] text-white/40 text-center py-10 px-5 text-xs tracking-wide mt-auto">
+        <div className="max-w-[780px] mx-auto mb-8">
+          <img 
+            src="https://rakutokuwater.smilegrit.com/wp-content/uploads/2026/04/ラクトク-バナーのコピー.png" 
+            alt="ラクトクウォーター バナー" 
+            className="w-full max-w-md mx-auto rounded-xl object-cover shadow-lg"
+          />
+        </div>
         <p>© 株式会社SmileGrit | ラクトク（楽得）ウォーター | 沖縄県</p>
       </footer>
     </div>

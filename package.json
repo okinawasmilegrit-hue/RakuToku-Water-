@@ -10,7 +10,7 @@
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
   },
-  "description": "RakuToku Water Blog - Final Image URLs",
+  "description": "RakuToku Water Blog - Reordered Images",
   "dependencies": {
     "@google/genai": "^1.29.0",
     "@tailwindcss/vite": "^4.1.14",
