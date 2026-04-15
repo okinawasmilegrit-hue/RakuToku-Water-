@@ -10,7 +10,7 @@
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
   },
-  "description": "RakuToku Water Blog - Added Filter Image",
+  "description": "RakuToku Water Blog - Added Google Drive Images",
   "dependencies": {
     "@google/genai": "^1.29.0",
     "@tailwindcss/vite": "^4.1.14",

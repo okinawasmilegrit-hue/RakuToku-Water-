@@ -146,7 +146,7 @@ export default function App() {
           <p className="text-[#2a2a2a] leading-loose mb-4">「今まで買っていたペットボトルのお水より美味しい！」と、乗り換えたお客様からも嬉しいお声をいただいています。</p>
           
           <img 
-            src="/filter-image.png" 
+            src="https://drive.google.com/uc?export=view&id=1hRaYnHTzLLkYEifzOrf5KoSob7as7Kxz" 
             alt="沖縄仕様の5段階フィルター" 
             className="w-full rounded-xl my-8 object-cover shadow-sm border border-[#e2ddd8]"
           />
@@ -177,6 +177,12 @@ export default function App() {
                 </li>
               ))}
             </ul>
+
+            <img 
+              src="https://drive.google.com/uc?export=view&id=1oOdqtSXlLyNEbCOksMB5QYpkJi6BA2q2" 
+              alt="ご案内モデル" 
+              className="w-full rounded-xl mb-6 object-cover shadow-sm border border-[#e8c878]"
+            />
             
             <a 
               href="https://lstep.app/form/28365/ZMiflJ/69514a" 
