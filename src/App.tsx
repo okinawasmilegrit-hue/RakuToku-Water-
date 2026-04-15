@@ -44,14 +44,20 @@ export default function App() {
       <main className="flex-grow max-w-[780px] mx-auto w-full px-5 pb-20">
         
         {/* Lead Text */}
-        <p className="text-base md:text-lg text-[#555] border-y border-[#e2ddd8] py-5 my-8 leading-loose">
-          毎日飲むお水。美味しさや安全を考えて「毎回スーパーやネットでペットボトルを買っている」というご家庭も多いと思います。でも、日々の生活の中で、こんな<strong>「ちょっとした手間」</strong>を感じることはありませんか？
-        </p>
+        <div className="text-base md:text-lg text-[#555] border-y border-[#e2ddd8] py-6 my-8 leading-loose">
+          <p className="mb-4">
+            家族の健康や、毎日の美味しいごはんのために。「お水にはこだわって、毎回スーパーやネットでペットボトルを買っている」というご家庭、とても多いですよね。<br />
+            いつも重いお水を運んだり、ストックを管理したり、本当にお疲れ様です！✨
+          </p>
+          <p>
+            家族を思うからこその選択ですが、日々の生活の中で、ふとこんな<strong>「ちょっとした手間」</strong>を感じることはありませんか？
+          </p>
+        </div>
 
         {/* Section 1: Pain Points */}
-        <section className="pt-14">
+        <section className="pt-10">
           <h2 className="font-serif text-xl md:text-2xl font-bold text-[#0d4f7a] border-l-4 border-[#1a6fa8] pl-3 mb-5 leading-snug">
-            毎日の「ちょっとした手間」、気づいていますか？
+            家族思いだからこそ抱える、毎日の「ちょっとした手間」
           </h2>
 
           <div className="bg-[#fff8f5] border border-[#f0d0c0] rounded-xl p-6 md:p-8 my-6">
@@ -146,7 +152,7 @@ export default function App() {
           <p className="text-[#2a2a2a] leading-loose mb-4">「今まで買っていたペットボトルのお水より美味しい！」と、乗り換えたお客様からも嬉しいお声をいただいています。</p>
           
           <img 
-            src="https://lh3.googleusercontent.com/d/1hRaYnHTzLLkYEifzOrf5KoSob7as7Kxz" 
+            src="https://rakutokuwater.smilegrit.com/wp-content/uploads/2026/04/ラクトク-バナーのコピー.png" 
             alt="沖縄仕様の5段階フィルター" 
             className="w-full rounded-xl my-8 object-cover shadow-sm border border-[#e2ddd8]"
           />
@@ -179,7 +185,7 @@ export default function App() {
             </ul>
 
             <img 
-              src="https://lh3.googleusercontent.com/d/1oOdqtSXlLyNEbCOksMB5QYpkJi6BA2q2" 
+              src="https://rakutokuwater.smilegrit.com/wp-content/uploads/2026/04/ryugusai.png" 
               alt="ご案内モデル" 
               className="w-full rounded-xl mb-6 object-cover shadow-sm border border-[#e8c878]"
             />
